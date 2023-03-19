@@ -1,0 +1,436 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.topdiv{
+    height: 30px;
+    background-color: #eee;
+    width: 100%;
+  padding: 0px;
+}
+.topdivul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.topdivul li{
+    margin-right: 20px;
+}
+.tdivtxt{
+    font-size: 12px !important;
+    color: #666;
+    cursor: pointer;
+    
+    font-size: 12px;
+    font-weight: 600;
+
+   
+}
+.tdivcont{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+  
+}
+.topdivicon{
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.topdivicon2{
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    color: black;
+   
+}
+.tdivbtn{
+    height: 32px;
+    width: 81px;
+    background: #fff;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+    border: 1px  solid #d9d9d9;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 1.5715;
+    padding: 4px 15px;
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+  display: inline-block;
+  margin: 0px;
+  outline: 0;
+  overflow: visible;
+}
+.tbtntxt{
+    text-align: center;
+font-weight: 400;
+    font-size: 14px;
+    color: rgba(0,0,0,.85);
+    height: 22px;
+   
+}
+nav{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.navdivst{
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 0px !important;
+    padding: 8px !important;
+    padding-left: 0px !important;
+    padding-right: 0px!important;
+    
+}
+.navultxt{
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-end; 
+    align-items: center;
+width: 100%;
+padding: 0px;
+margin: 0px;
+height: 40px;
+}
+.navdivcont{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    height: 65px;
+   
+}
+.ulcontdiv{
+    display: flex;
+    
+    width: 100%;
+}
+.navultxt li{
+    margin-right: 17px;
+    padding: 8px;
+}
+.navulsp{
+    font-size: 14px;
+}
+.navbarbtndonate{
+    text-align: center;
+    background-color: #0d6db7;
+    border: none;
+    border-radius: 5px;
+    width: 142px;
+    height: 40px;
+}
+.imgmainpage{
+  
+    height: 570px;
+   
+    width: 100%;
+padding: 0px !important;
+    margin-top: 10px;
+}
+.mainimgdiv{
+    height: 560px;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+.maintxtdiv{
+    height: 560px;
+    width: 50%px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.maintxtimgcont{
+    display: flex;
+    height: 570px;
+    background-image: url(https://saylaniwelfare.com/static/media/carousal_background.d77d94e41c5a71ae581f.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+.contbtnformain{
+    height: 51px;
+    width:178px ;
+    background: #ffffff !important;
+    color: #000000d9 !important;
+    font-size: 12px !important;
+    border-color: #000000d9 !important;
+}
+.donationbox{
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba(182,239,73,.2);
+    width: 100%;
+    border-radius: 10px;
+}
+.donationboxcont{
+    display: flex;
+    align-items: center;
+}
+.donationlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 74px;
+    width: 100%;
+}
+.donationspantext{
+    font-size: 14px; font-weight: 700;color: #000000D9;
+}
+.donationtextboxcont{
+    width: 198px;height: 53px;    background-color: #fff;
+    border-radius: 10px;padding: 13px 32px;
+}
+.donation_box_btn{
+    background-color: #8dc63f!important;
+    border: none!important;
+    height: 53px;
+    width: 158px;
+}
+.svgimgcont{
+    height: 192px;
+    width: 100%;
+    display: flex;
+  padding: 0px !important;
+}
+.svgimgs{
+    width: 196px;
+    height: 152px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(182,239,73,.2);
+    border-radius: 10px;
+    color: #424242;
+    cursor: default;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+.padforsvg{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.imgdivcontform{
+    margin-top: 30px;width: 100%;height: 300px;
+    display: grid;
+    grid-template-columns: 416px 416px 416px;
+    column-gap: 25px;
+
+}
+.cardimg{
+    height: 300px;width: 416px;position: relative;
+}
+.cardbtn{
+    position: absolute;
+    bottom: 13px;
+    left: 8px;
+    width: 96%;
+    border-radius: 5px;
+    background-color: #8dc63f !important;
+    border: none !important;
+}
+.imageandtextcont{
+    display: grid;
+    grid-template-columns: 636px 636px;
+    column-gap: 23px;
+    height: 497px;
+    width: 100%;
+    margin-top: 50px;
+}
+.partimgofcont{
+    position: absolute;
+    width: 636px;
+    background-color: initial;
+    border-bottom: 1px solid #fff;
+    height: 50%;
+}
+.partimgofcont1{
+top: 0px;
+left: 0px;
+border-right: 1px solid #fff;
+background-color: #8dc63f;
+border-top-left-radius: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+}
+.partimgofcont2{
+    top: 0px;
+    left: 50%;
+    width: 50%;
+}
+.partimgofcont3{
+    top: 50%;
+left: 0px;
+border-right: 1px solid #fff;
+width: 50%;
+}
+.txtportionimg{
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+}
+.otherprojectimgtxt{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.imgaboutbox::before {
+    background-image: url(https://saylaniwelfare.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
+    opacity: .2;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+content: " ";
+}
+.imgaboutbox{
+    height: 445px;
+    width: 100%;
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgimgback{
+    background-color: #0d6db7;
+    
+    width: 100%;
+    height: 445px;
+    background-blend-mode: soft-light;
+}
+.imgforcounting{
+    width: 100%;
+    height: 245px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.countimgcont{
+    background-color: #fff;
+    border-radius: 60px;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 120px;
+    align-items: center;
+    display: flex;
+}
+.imgwithcount{
+    height: 50%;
+    object-fit: contain;
+    width: 50%;
+}
+.imgtxtcountcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.questiondiv{
+    height: 176px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slidercontforportfolio{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 50px;
+}
+.porfoliotxt{
+    font-size: 14px;    line-height: 30px;
+    color: rgba(0,0,0,.85);
+    word-break: break-word;
+
+    text-align: center!important;
+}
+.mediavideocard{
+display: grid;  
+}
+.mediaimgcard{
+    height: 364px;
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgmedia{
+    background-color: rgba(0,0,0,1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+    width: 304px;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1678429458/website-images/dynamic/f9c9e76e-4a5b-465d-ae59-5ec44a2aaf81.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: cover;
+    background-position: 40% 30%;
+}
+.playbtn{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background: transparent;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKcAAACjCAYAAADvhw76AAAABHNCSVQICAgIfAhkiAAADGdJREFUeF7tnQlsFOcVx9/s2qzDaVyOUFKQEKBGCAJpKapUaBFINCnGSagDwlZKjG1AyCFNQ1S1SDhFoJKQ0oSowQc0EQTEGoKXdQgJIiKkVNQ2R30USmzqA1/B+IzxmrV3+mbN4MX4mNljdsb7X8nC7L6Z9+b3/fzNN9/M7AgUqFfSiblE4U8TucYTiVEkCJEk8r+iMJYEighUWqw3UASEdm7HBhKpiTM0EAn8Q3Xkcv2LDsT8NxBZBb+tNNZqpjHhc0kw/ZwLX8jrZSnxChECtbydX5FgPkfpecVEqS5/bLfvcibYRpFZWMvFPMM/o/1RFNZhZALCHe5dj5OJjlF69F1ftsR7OVNOWajdGUsmIY6LGeVLEVh2SBJo5CHcR2SqtlH6eqc3W6heTvfuO2I5jxtf5oTjvEmKZUKJgFhDZM6kjPwzanf36uRMto8j0bWdx5SzQwkvttUPBATKo3bLVjq4rE3p2pTLmfTJTKKwt9BbKkWLuEcIiFROJufrlL6Se9PBX8rkTMzmo2/TNkwBDQ4UEYMSaCaTuI3SYvIHixxETlGg5JMv8cA2kVekTOTBMuJzEBCoi7qEPbQ/OnsgGAMLl5yzuHuMiRcI+J1AJ5+UeYUyYwr6W3P/cq61z6BwcR8vaPF7WVghCHQTaOT98SZKX1HRF5C+5Vx7IpKGmffz/OVEUASBABOooCZHMmW9+F3vPI/KKU2ud3Tt4S53ToCLwupBoJuAKF6kzCtv9J4HfVTORFs8X6SxAdxAQFMComsnZT53yjPnw3LGWkdSpOUYH5iP1LQwJAMBgW5RoyOOd+9dMoyH5UzKSeBL3PgHLxAIAgGXsNtzeqlHznXWKDJZDqPXDEKjIKVMoJ4iwlbR3mc7pDd65Eyybeb/xoITCASZwHuUscLaI2dyWjiJk3L4jRFBLgzpQaCC5VzTI+c62zy+LnMvuICALgi4nHG0f2V59249yc5TR2K8LgpDESAg8pnJzJhD9+U8yQdCNAVUQEAXBAQq5lOa6wVad3wqmcI/1kVRKAIEugmIfCLoeYESs5/lOyb/ACogoCsCgvl3AmHiXVdtgmLuE+DTmdLFxH/kTlS6rRcvENARAdMB7jnt7/AufoGOqkIpICCdHvqMx5y2D3nwOR08QEBfBIQr3HPaTuN8ur6aBdW4CdSynCf/ARggoEMCjZBTh62CktwEICdE0C0ByKnbpkFhkBMO6JYA5NRt06AwyAkHdEsAcuq2aVAY5IQDuiUAOXXbNCgMcsIB3RKAnLptGhQGOeGAbglATt02DQqDnHBAtwQgp26bBoVBTjigWwKQU7dNg8IgJxzQLQHIqdumQWGQEw7olgDk1G3ToDDICQd0SwBy6rZpUBjkhAO6JQA5dds0KAxy9nZgyvceG5a6fObkVfMnTxw+zGy+1ehwXK1sbj2cW1V/JLeqAc5oRgByeqKOWzA5Ki1+zswRljBzX01QVN3SuuFQYemFkoY2zZoodBNBTrntX5g3KfL4xh/PUuJCVn5NXcrRwrK65o5OJfGI8YoA5JSxle5YMm/a+OHDlWJsdXR27v6itPJPOTeqlS6DOFUEIKeEa96UMY9d3rroaVXo7geX1d9tf8VaXGq/WtvszfJYpl8CkFNC85uf/iDqw5fnPumLKGeu3a7feKigrPT2XfdzG/HymQDklBC+umTahD2rZs3wFafD2eX627nyW6n2G1WtDqfL1/WF+PKQ059yyjLVtd7r2Ga7XpZ2vrw+xAXzZfMhZyDklFvkUnlTc9LBgtIrFc3tvrRSiC4LOQMpp7TuLpcoHrx4q+b3J65VYupJ1Z8Z5Ay0nHJztLR3du76vKRi1+nSmi4XhqMKNIWcWskpN8aNura2jYcLS768dvs7BQ0UyiGQU2s5pXyiSGQvqPv2NWtRBaae+v37g5zBkFNuDnnqaavtWlX7Pezre2kKOYMpp9wYVXzl02+zikuz8qubQnk/Djn7aH1/TcL7KtaF0obGlCNF/8PUk5skek499JyeUstTT69Ziysa7zq7fBXewMtDTr3JKcvU0HbPuf3Tb8rf/fJmnRiaM0+QU69yypIWVbW0brb+52YITj1BTr3L6Tn1tOlwQRnfNuI08K5aTemQ0whyyi3a1tHZ9dezNyvfzPmm2tnp4tnSIf2CnEaSU1ZRuqDk2b25179tGdK3iUBOI8op1Xz22u07S/dcvD6E+07IaVQ5pbpXvJ9bxKdBh+rtIZDTLefSaRP3vDhrutF6oaN51bWrMy6VGq1uhfVCTiP3nHz/fNPP3rpQrLCxjRYGOY0sZ35ZU8v8nV8XGs06hfVCTiPv1j/OvVUTn3nlpsLGNloY5DRwzynO3X7+8r8rmx1Gs05hvZDTqHK+y5Pxrx4trlDY0EYMg5xGlDOnoO529Pu5N4xonIqaIafR5DySV1WzJuPyUB1neroLOY0gp3zPES78UNHvDpVQvVwJ3xdPXDI3VCzzcjv0KCcuNsZtGm6d9SQnbtN40MNgzKknOXGD20O7PsipBzlxa3Cf4zHIGUw58aUKAx4kQM5gyImvo1F05Ao5tZYTX+SlSEwpCHJqJSe+AlGxlHIg5Ay0nPjyWNVSQk5PZIGa58TXbnstJnbrMjp/y4kHFvgkJXrOQPSceNSLX6SEnP6WEw/J8quY2K3LOJ+ZPWH0qZQFs73BW36nvT3laBEeL+gNvIGXwdG6xCci3CzU/2XZT0ZYzGFKGctTQ29/UVobAt9bpBSLP+Mgp0xz1wtPPvHGL6dPHYwuP1aI+JHWtZutReV4rtBgtHz6HHJ64kuLf2pq8qIpT/SH9GplS8umI4U3/1nS0OYTdiyshADk7E1p1fzJY1OjZ0z94eOjRsifSY+t3vFZSUXm13iWpRKr/BQDOfsDuXBm1MjRlnDz9dpWB54V5Cfd1K0GcqrjhWgNCUBODWEjlToCkFMdL0RrSAByaggbqdQRgJzqeCFaQwKQU0PYSKWOAORUxwvRGhKAnBrCRip1BCCnOl6I1pAA5NQQNlKpIwA51fFCtIYEIKeGsJFKHQHIqY4XojUkADk1hI1U6ghATnW8EK0hAcipIWykUkcAcqrjhWgNCUBODWEjlToCkFMdL0RrSAByaggbqdQRgJzqeCFaQwKQU0PYSKWOAORUxwvRGhKAnBrCRip1BCCnOl6I1pCAJKftNJEwUsOkSAUCSgjUspwnD3PkFCXRiAEB7QgIV1hO+14icZ52SZEJBBQROCv1nG9y6BJF4QgCAc0IiFnSmHMzjzljNcuJRCCghIAo7hMo0RZPgrBBSTxiQEAzAqJrp0DJny4gsesdzZIiEQgoIeByxrGcaeEkPm7HdJISYojRiEAFZaxYI7iT4aBII+ZIo4yAcIgyonnM6ZYzeymRKVXZgogCgYATWM89Z3G3nLHWkRQZwbt2Cg94WiQAgYEJ1HOv+TwPM8VuOd29p50PisQFIAcCQSUgijbKjHlbqqFHzgTb9ylMOEIimYNaHJKHMoE2CjOtpg+WNz4sp/S/RNsWnvOMCWU62PZgEjAdoIzlB+QKenpO6Z111igyRWTxb5ZglojcIUmgkRyW1XRw2YOn4z0sZ/fYk88WifEhiQcbHUwC7/ERutWzgEflTDllIUfnPg6aEcxKkTuECIiURyWjttC5xZ0Dyyl9uuHzCeTq+IAPjiaGECJsalAICJXkGJbouTvve8zpWdxa+wwKF6UeFOPPoDRaSCRto05XIv39ucq+tvbR3bpnVHLOYhJd20MCEzZSawLSLnwLjzPz+ks8sJzuA6ScBCIX/+AFAn4k4BJ20/7o7IHWOLic0tKJ2Qv53Ps2nrKP8GN5WFVoEmgmk7iN0mLyB9t8ZXK6e9BPZhKZd/BJpUmDrRSfg0CfBEQqJ5PzdUpfWaOEkHI5pbUlW8eQaPkzCzpbycoRAwIPCAg8XdRu2drXUbn3Y87eS8ZazRRp+RULKo1DxwE/CAxMQORe0pxJGflniFJdamip6zk91+yerHf+miWN47dHq0mK2JAg0Eii8BGZqm2Uvt7pzRZ7L6ecLcE2ige4L5Fg4t4UknrTCENrGeEOn7w5TiY6RunRd33ZNt/llLNLu/vRljlkFn7BxS3it8f7UhiWNRSBWu4lz5OLvqIDlwrV7r79N+ZUyizB/hSZXT/i3b4k6ViehhpLohjFGyH9jikppRz1Eyf1gnydpdjA04q8y3bx76Y67iFzuYe8Hogy/ddzBqI6rDOkCfwfaxEt4TewgfsAAAAASUVORK5CYII=);
+border-radius: 8px;
+opacity: 1;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.divabso{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.blackscreen::before{
+    background-color:black ;
+   
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .4;
+    content: " ";
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.blackscreen{
+    height: 250px;
+    width: 304px;
+    position: absolute; 
+    top: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
